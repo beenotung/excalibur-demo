@@ -19,7 +19,7 @@
     "prebuild": "npm run clean",
     "build": "parcel build src/index.html",
     "preupload": "npm run build",
-    "upload": "surge dist mytmp.surge.sh"
+    "upload": "surge dist excalibur-demo.surge.sh"
   },
   "husky": {
     "hook": {
